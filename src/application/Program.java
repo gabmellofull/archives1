@@ -31,7 +31,7 @@ public class Program {
 		
 		boolean success = new File(sourceFolderStr + "\\out").mkdir();
 		
-		String targetFileStr = sourceFolderStr + "\\out\\summary.csv";
+		String targetFileStr = sourceFolderStr + "\\out\\summary.txt";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {
 
